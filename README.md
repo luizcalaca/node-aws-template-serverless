@@ -7,9 +7,14 @@
 
 ## Getting started
 ```
-sls create --name YOUR_PROJECT_NAME --template-url https://github.com/codingly-io/sls-base
+sls create --name YOUR_PROJECT_NAME --template-url https://github.com/luizcalaca/node-aws-template-serverless.git
 cd YOUR_PROJECT_NAME
 npm install
 ```
+## Deploy
 
-You are ready to go!
+sls deploy --verbose
+
+## On AWS
+
+Look at CloudFormation service 
