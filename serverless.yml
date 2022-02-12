@@ -1,10 +1,8 @@
-service:
-  name: sls-base
+service: node-aws-template-serverless
 
 plugins:
   - serverless-bundle
   - serverless-pseudo-parameters
-
 provider:
   name: aws
   runtime: nodejs12.x
